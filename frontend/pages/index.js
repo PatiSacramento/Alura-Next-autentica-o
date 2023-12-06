@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
+import { authService } from "../src/services/auth/authService";
 
 export default function HomeScreen() {
   const router = useRouter();
